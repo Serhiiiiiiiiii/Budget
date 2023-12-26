@@ -1,0 +1,222 @@
+{
+  "incomes": [
+    {
+      "id": 1,
+      "amount": 10,
+      "date": "2023-03-20",
+      "name": "Techin",
+      "category": "Alga"
+    },
+    {
+      "id": 2,
+      "amount": 114,
+      "date": "2023-03-01",
+      "name": "Stroike",
+      "category": "Papildomi darbai"
+    },
+    {
+      "id": 3,
+      "amount": 220,
+      "date": "2023-02-11",
+      "name": "Mociute",
+      "category": "Dovana"
+    },
+    {
+      "id": 4,
+      "amount": 345,
+      "date": "2023-01-27",
+      "name": "Lietuvos Gelezinkeliai",
+      "category": "Alga"
+    },
+    {
+      "id": 5,
+      "amount": 444,
+      "date": "2022-12-24",
+      "name": "Vokelis",
+      "category": "Dovana"
+    },
+    {
+      "id": 6,
+      "amount": 528,
+      "date": "2022-12-15",
+      "name": "Chaltura",
+      "category": "Papildomi darbai"
+    },
+    {
+      "id": 7,
+      "amount": 617,
+      "date": "2022-11-19",
+      "name": "Vakarinis pasivaiksciojimas po automobiliu stovejimo aikstele",
+      "category": "Papildomi darbai"
+    },
+    {
+      "id": 8,
+      "amount": 745,
+      "date": "2022-10-04",
+      "name": "Policija",
+      "category": "Alga"
+    },
+    {
+      "id": 9,
+      "amount": 899,
+      "date": "2022-09-05",
+      "name": "Gimtadienis",
+      "category": "Dovana"
+    },
+    {
+      "id": 10,
+      "amount": 1012,
+      "date": "2022-08-17",
+      "name": "Twitch",
+      "category": "Alga"
+    },
+    {
+      "id": 11,
+      "amount": 590,
+      "date": "2023-04-01",
+      "name": "Grazino skola",
+      "category": "Alga"
+    },
+    {
+      "id": 12,
+      "amount": 102,
+      "date": "2022-05-02",
+      "name": "Gimtadienis",
+      "category": "Dovana"
+    },
+    {
+      "id": 13,
+      "amount": 20,
+      "date": "2022-06-17",
+      "name": "Radau ant zemes",
+      "category": "Papildomi darbai"
+    },
+    {
+      "id": 14,
+      "amount": 223,
+      "date": "2022-07-20",
+      "name": "Mokesciu deklaracija",
+      "category": "Alga"
+    },
+    {
+      "name": "dasdas",
+      "amount": 123,
+      "date": "2023-04-04",
+      "id": 15
+    },
+    {
+      "name": "aawdaw",
+      "amount": 123,
+      "date": "2022-04-08",
+      "category": "Alga",
+      "id": 16
+    },
+    {
+      "name": "aaaaaa",
+      "amount": 123,
+      "date": "2022-04-11",
+      "category": "Dovana",
+      "id": 17
+    }
+  ],
+  "expenses": [
+    {
+      "id": 1,
+      "amount": 5,
+      "date": "2023-03-24",
+      "name": "nachnikas",
+      "category": "Parduotuve"
+    },
+    {
+      "id": 2,
+      "amount": 72,
+      "date": "2023-03-15",
+      "name": "Zara",
+      "category": "Parduotuve"
+    },
+    {
+      "id": 3,
+      "amount": 114,
+      "date": "2023-02-19",
+      "name": "Gintarine Vaistine",
+      "category": "Sveikata"
+    },
+    {
+      "id": 4,
+      "amount": 250,
+      "date": "2023-01-29",
+      "name": "Sarnyras",
+      "category": "Transportas"
+    },
+    {
+      "id": 5,
+      "amount": 320,
+      "date": "2022-12-31",
+      "name": "Nese Casino",
+      "category": "Pramogos"
+    },
+    {
+      "id": 6,
+      "amount": 419,
+      "date": "2022-12-18",
+      "name": "Anabloniniai steroidai ir Co",
+      "category": "Sportas"
+    },
+    {
+      "id": 7,
+      "amount": 508,
+      "date": "2022-11-22",
+      "name": "Bezdonys",
+      "category": "Keliones"
+    },
+    {
+      "id": 8,
+      "amount": 607,
+      "date": "2022-10-12",
+      "name": "Pabo Latino",
+      "category": "Pramogos"
+    },
+    {
+      "id": 9,
+      "amount": 718,
+      "date": "2022-09-06",
+      "name": "Lazerine akiu korekcija",
+      "category": "Sveikata"
+    },
+    {
+      "id": 10,
+      "amount": 922,
+      "date": "2022-08-25",
+      "name": "Bauda policijai",
+      "category": "Pramogos"
+    },
+    {
+      "id": 11,
+      "amount": 10,
+      "date": "2023-03-22",
+      "name": "Koldunai",
+      "category": "Parduotuve"
+    },
+    {
+      "id": 12,
+      "amount": 25,
+      "date": "2023-03-01",
+      "name": "Jager",
+      "category": "Sveikata"
+    },
+    {
+      "id": 13,
+      "amount": 30,
+      "date": "2023-04-01",
+      "name": "Gintarine Vaistine",
+      "category": "Sveikata"
+    },
+    {
+      "id": 14,
+      "amount": 212,
+      "date": "2023-04-01",
+      "name": "Telefono taisymas",
+      "category": "Parduotuve"
+    }
+  ]
+}

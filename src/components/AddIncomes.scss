@@ -1,0 +1,15 @@
+input.incomes_expensesFields.form-control {
+    background: linear-gradient(#0e0e30, #0e0e30) padding-box, linear-gradient(to right, #008cff, #9900dd) border-box !important;
+}
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+.formError{
+    color: red;
+    font-size: 0.9rem;
+}
+@media only screen and (max-width: 767px) {
+    .income_expensesBtn button {
+        font-size: 1.0rem !important;
+    }
+}

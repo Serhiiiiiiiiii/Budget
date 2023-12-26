@@ -1,0 +1,271 @@
+// .readIncomejsx{
+//     overflow: visible;
+//     width: 100%;
+// }
+
+// .cardsWrapper {
+//     padding: 25px;
+//     background: rgb(14,14,48);
+//     background: linear-gradient(90deg, rgba(14,14,48,1) 0%, rgba(11,39,89,  1) 100%);
+//     height: 100vh;
+// }
+
+// .cardsContainer {
+//     border-radius: 15px;
+//     background: rgb(14,14,48);
+//     background: linear-gradient(180deg, rgba(14,14,48,1) 0%, rgba(60,11,107,1) 100%);
+//     display: grid;
+//     grid-template-columns: repeat(3, 1fr);
+//     grid-template-rows: repeat(auto, 89px);
+//     grid-auto-rows: auto;
+//     gap: 10px;
+//     padding: 15px;
+//     position: relative;
+//     overflow-y: scroll;
+//     justify-items: stretch;
+//     justify-content: stretch;
+//     // height: 750px;
+//     height: 60vh;
+// }
+// .cardsContainerBorder{
+//     background: linear-gradient(#0e0e30, #0e0e30) padding-box,
+//         linear-gradient(to right, #008cff, #9900dd) border-box;
+//     border-radius: 15px;
+//     border: 5px solid transparent;
+// }
+
+// // .overflowHidden {
+// //     overflow: hidden;
+// // }
+// @media only screen and (max-width: 1500px) {
+//     .cardsContainer {
+//         grid-template-columns: repeat(2, 1fr);
+//     }
+// }
+// @media only screen and (max-width: 1200px) {
+//     .cardsContainer {
+//         grid-template-columns: repeat(1, 1fr);
+//     }
+//     .ButtonsContainer{
+//         // justify-self: center;
+//         // align-self: center;
+//         // display: flex;
+//         // flex-direction: column;
+//         gap:20px;
+//     }
+// }
+// .LinkButton {
+//     width: 160px;
+//     height: 185px;
+// }
+// .LinkWrapper {
+//     width: 200px;
+//     margin: 15px auto 0px auto;
+// }
+// .card {
+//     background-color: #0e0e30;
+//     color: #fff;
+//     padding: 10px;
+//     background: linear-gradient(#0e0e30, #0e0e30) padding-box,
+//         linear-gradient(to right, #008cff, #9900dd) border-box;
+//     border-radius: 15px;
+//     border: 1px solid transparent;
+//     display: grid;
+//     grid-template-columns: 1fr 2fr 1fr;
+//     font-size: 1.2em;
+//     height: 170px;
+//     overflow: hidden;
+//     transition: height 0.3s ease-out;
+//     position: relative;
+//     align-self: stretch;
+//     justify-self: stretch;
+// }
+// .buttonIcons:hover {
+//     cursor: pointer;
+//     color: #8d0b7e !important;
+// }
+// .buttonIcons {
+//     color: #0d6efd !important;
+// }
+// .cardInfoWrapper {
+//     justify-self: start;
+//     align-self: center;
+// }
+// .cardPriceGreen{
+//     color: #52ff00;
+//     justify-self: center;
+//     align-self: center;
+// }
+// .cardIcon{
+//     justify-self: center;
+//     align-self: center;
+// }
+
+// .buttonAdd {
+//     background: linear-gradient(#0e0e30, #0e0e30) padding-box,
+//         linear-gradient(to bottom, #008cff, #9900dd) border-box;
+//     border-radius: 15px;
+//     border: 2px solid transparent;
+//     width: 200px;
+//     height: 150px;
+//     color: #fff;
+//     margin-bottom: 0px;
+//     display: inline-block;
+// }
+
+// .buttonLink{
+//     display: inline-block;
+// }
+// // .activeCard {
+// //     height: 300px;
+// //     font-size: 20px;
+// //     position: absolute;
+// //     top: 0;
+// //     left: 0;
+// //     right: 0;
+// //     bottom: 0;
+// //     z-index: 1;
+// //     height: auto;
+// //     overflow: visible;
+// //     transition: height 0.3s ease-out;
+    
+// // }
+
+// .activeButton{
+//     font-size: 2rem;
+//     background-color: #0e0e30;
+//     color: #fff;
+//     padding: 10px;
+//     background: linear-gradient(#0e0e30, #0e0e30) padding-box,
+//         linear-gradient(to right, #008cff, #9900dd) border-box;
+//     border-radius: 15px;
+//     border: 1px solid transparent;
+//     margin: 0 30px;
+// }
+// .ButtonsContainer{
+//     // grid-column-start: 1;
+//     // grid-column-end: 4;
+//     // justify-self: center;
+//     // align-self: center;
+//     display: flex;
+//     flex-direction: row;
+//     gap: 30px;
+// }
+
+// //Scrollbar
+// .cardsContainer::-webkit-scrollbar {
+//     width: 20px;
+//   }
+  
+//   .cardsContainer::-webkit-scrollbar-track {
+//     background-color: transparent;
+//   }
+  
+//   .cardsContainer::-webkit-scrollbar-thumb {
+//     background-color: #333;
+//     border-radius: 20px;
+//     border: 6px solid transparent;
+//     background-clip: content-box;
+//   }
+  
+//   .cardsContainer::-webkit-scrollbar-thumb:hover {
+//     background-color: darken(#333, 5%);;
+//   }
+//   ::-webkit-scrollbar {
+//     width: 9px;
+//     height: 5px;
+//     background-color: transparent;
+//   }
+    
+//   ::-webkit-scrollbar-track {
+//       background-color: #f5f5f5;
+//       border-radius: 10px;
+//     }
+    
+//   ::-webkit-scrollbar-thumb {
+//       background-color: #aaa;
+//       border-radius: 10px;
+//     }
+    
+//   ::-webkit-scrollbar-thumb:hover {
+//       background-color: #888;
+//     }
+
+
+
+//     .confirmation-modal {
+//         position: absolute;
+//         top: 50%;
+//         left: 50%;
+//         z-index: 99999;
+//       }
+      
+//       .deleteCard {
+//         padding: 2% 4% 2% 4%;
+//         border: 2px solid transparent;
+//         background: linear-gradient(#0e0e30, #0e0e30) padding-box,
+//         linear-gradient(to right, #008cff, #9900dd) border-box;
+//       border-radius: 15px;
+//       border: 2px solid transparent;
+//       color: #ffffff;
+    
+//       }
+    
+//       @media only screen and (max-width: 1400px) {
+//         .deleteCard {
+//             top:40%;
+//             left: 40%;
+//             width: 500px;
+//         }
+//       }
+    
+//       .deleteBtn {
+//         margin: 20px;
+//       }
+    
+//       .react-confirm-alert-overlay {
+//         position: fixed;
+//         top: 0;
+//         left: 0;
+//         width: 100%;
+//         height: 100%;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         z-index: 99999;
+//         backdrop-filter: blur(2%);
+//         -webkit-backdrop-filter: blur(2%);
+//       }
+      
+//       .react-confirm-alert {
+//         position: relative;
+//         z-index: 999999;
+//         border-radius: 4px;
+//         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+//         max-width: 90%;
+//         max-height: 90%;
+//         overflow: auto;
+//       }
+      
+//       .react-confirm-alert-body {
+//         padding: 20%;
+//         text-align: center;
+//       }
+      
+//       .react-confirm-alert-body h1 {
+//         font-size: 24px;
+//         margin-top: 0;
+//         padding: 8px;
+        
+//       }
+      
+//       .react-confirm-alert-body p {
+//         font-size: 20px;
+        
+//       }
+      
+//       .react-confirm-alert-body .deleteBtn {
+//         margin-right: 20%;
+      
+//       }
+      

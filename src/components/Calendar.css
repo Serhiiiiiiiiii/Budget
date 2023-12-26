@@ -1,0 +1,111 @@
+.historyTab::-webkit-scrollbar {
+  display: none;
+}
+
+.calendar-container {
+  padding-top: 1%;
+  width: 30%;
+  padding-right: 10px;
+  margin: 0;
+  height: 100vh;
+}
+
+.historyTab {
+  box-sizing: border-box;
+  background: linear-gradient(#0e0e30, #480068) padding-box,
+    linear-gradient(to right, #008cff, #9900dd) border-box;
+  border-radius: 15px;
+  border: 2px solid transparent;
+  padding: 20px;
+  float: left;
+  overflow-y: auto;
+  color: #ffffff;
+  height: 99%;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.historyTab p,
+h2 {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.historyCard {
+  width: 100%;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  gap: 0px;
+  align-items: center;
+  background-color: #0e0e30;
+  padding-right: 10px;
+}
+
+.historyInfo {
+  height: 100px;
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px;
+  align-items: center;
+}
+
+.cardInfo {
+  display: flex;
+  gap: 20px;
+}
+
+/* .transferInfo {} */
+
+.transferName {
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 200px;
+  text-overflow: ellipsis;
+  /* width: 50%; */
+}
+
+/* .transferDate{} */
+
+.transferButtons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 0px;
+  align-items: center;
+}
+
+.TransferAmmount {
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 200px;
+  text-overflow: ellipsis;
+}
+
+.greenClass {
+  color: #2cd034;
+  white-space: nowrap;
+}
+
+.redClass {
+  color: #d0342c;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 767px){
+  .historyTab {
+    height: 465px;
+    margin: 0;
+  }
+  .transferInfo {
+    width: 60%;
+  }
+}

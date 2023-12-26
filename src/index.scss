@@ -1,0 +1,453 @@
+//USER IKONOS IR LOGOUT MYGTUKO PLACEMENT'AS APACIOJE
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+
+.container__Bottom--Margin {
+  margin: auto;
+  padding: 10px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0px;
+}
+
+
+.users-select {
+  width: 100% !important;
+  text-align-last: center;
+  appearance: none;
+  overflow-y: scroll;
+}
+
+//NAVIGATION BACKGROUND SPALVA
+.nav__background--color {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 140, 255, 0.2) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    linear-gradient(360deg, rgba(105, 66, 239, 0.2) 0%, rgba(0, 0, 0, 0) 100%),
+    #0e0e30;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5%;
+  width: 20%;
+}
+
+//PAGRINDINIU MYGTUKU BORDERIS IR HOVERIS
+#navButtons button {
+  &:hover {
+    background: linear-gradient(270deg, #9900dd 0%, #008cff 100%);
+    color: #fff;
+  }
+}
+
+.register-login-buttons {
+  width: 50%;
+  margin: auto;
+  & button {
+    padding: 0;
+    font-size: 100%;
+    &:hover {
+      background: linear-gradient(270deg, #9900dd 0%, #008cff 100%);
+      color: #fff;
+    }
+  }
+}
+
+.logout-button {
+  all: unset;
+}
+
+.user-profile {
+  color: #008cff;
+  padding-top: 10%;
+}
+
+.user-logo {
+  display: flex;
+  gap: 5%;
+  width: 25%;
+  &img {
+    width: 100%;
+  }
+}
+
+.error {
+  color: red;
+}
+
+.offcanvas-body {
+  padding: 0;
+}
+
+.navigation-topbar {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 140, 255, 0.1) 0%,
+      rgba(153, 0, 221, 0.1) 100%
+    ),
+    #0e0e30;
+  min-width: 350px;
+}
+
+.navigation-topbar img {
+  width: 50px;
+  padding: 0;
+}
+
+.burger-button {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  &:hover {
+    color: linear-gradient(270deg, #9900dd 0%, #008cff 100%);
+    color: #fff;
+  }
+}
+
+//BUGFIX
+.modal-open {
+  overflow: auto;
+  padding-right: 0 !important;
+}
+
+.show-onMobile {
+  display: none !important;
+}
+
+.col {
+  padding-right: 0;
+}
+
+main {
+  padding-right: 0;
+}
+@media only screen and (max-width: 768px) {
+  .show-onMobile {
+    display: flex !important;
+  }
+}
+
+.dashboard-background {
+  background: linear-gradient(
+      349.4deg,
+      rgba(0, 140, 255, 0.2) -12.53%,
+      rgba(14, 14, 48, 0.2) 77.77%
+    ),
+    #0e0e30;
+  min-width: 350px;
+}
+
+.diagram-border {
+  background: linear-gradient(#0e0e30, #0e0e30) padding-box,
+    linear-gradient(to right, #008cff, #9900dd) border-box;
+  border-radius: 15px;
+  border: 2px solid transparent;
+  width: 75%;
+  font-size: 1.5rem;
+  color: #008cff;
+  // margin-top: 20px;
+  // padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  // top: 75px;
+}
+
+// .dashboard-background img {
+//   width: 100%;
+// }
+
+//ADDINCOMES IR ADDEXPENSES
+
+.incomes_expenses__background--color {
+  background: linear-gradient(rgba(0, 140, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%),
+    linear-gradient(360deg, rgba(105, 66, 239, 0.2) 0%, rgba(0, 0, 0, 0) 100%),
+    #0e0e30;
+  color: #008cff;
+  width: 80%;
+  height: 100vh;
+}
+
+.income_expensesBtn,
+.MessageIncome {
+  display: flex;
+  justify-content: center;
+}
+
+.income_expensesBtn button {
+  margin: 0 auto;
+  background: linear-gradient(#0e0e30, #0e0e30) padding-box,
+    linear-gradient(to right, #008cff, #9900dd) border-box;
+  border-radius: 15px;
+  border: 2px solid transparent;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #008cff;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.income_expensesBtn button:hover {
+  background: linear-gradient(270deg, #9900dd 0%, #008cff 100%);
+  color: #fff;
+}
+
+.incomes_expensesFields {
+  border: 2px solid transparent;
+  background: linear-gradient(#0e0e30, #0e0e30) padding-box,
+    linear-gradient(to right, #008cff, #9900dd) border-box;
+  border-radius: 15px;
+  border: 2px solid transparent;
+  color: #ffffff;
+}
+
+.incomes_expensesFields:focus {
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .incomes_expenses-onMobile {
+    width: 100%;
+  }
+}
+
+.recharts-cartesian-axis-line {
+  stroke: #ff0000;
+  stroke-width: 2px;
+}
+
+.chart-wrapper {
+  width: 100%;
+}
+
+.tab-content {
+  margin: auto;
+}
+
+.recharts-cartesian-axis-tick-value {
+  font-size: 12px;
+}
+
+.container {
+  padding-top: 50px;
+  min-width: 350px;
+  min-height: 300px;
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .admin-panel {
+    padding: 0px;
+  }
+  .nav-logo {
+    padding: 10px;
+    width: 50%;
+  }
+  .income-expense-buttons-dashboard {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0;
+  }
+  .diagram-history-buttons-dashboard {
+    display: flex;
+    justify-content: space-between;
+  }
+  .dashboard-background {
+    height: 100vh;
+  }
+  .nav__background--color {
+    height: 100vh;
+    width: 100%;
+  }
+  .main-graph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    padding-top: 70px;
+  }
+  .diagram-border {
+    top: 0;
+  }
+  .users-select {
+    width: 100% !important;
+    text-align-last: center;
+    appearance: none;
+    text-indent: 15px;
+    overflow-y: scroll;
+  }
+  .line-chart {
+    height: 339px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .admin-panel {
+    padding: 50px;
+  }
+  .nav-logo {
+    width: 50%;
+    padding: 10px;
+  }
+  .income-expense-buttons-dashboard {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+  }
+  .dashboard-background {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .line-chart {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 400px;
+  }
+
+  .main-graph {
+    width: 70%;
+    padding: 1%;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: stretch;
+    // justify-content: center;
+    // position: relative;
+    // top: -30px;
+  }
+
+  .nav__background--color {
+    min-width: 280px;
+  }
+}
+
+.select-dark option {
+  color: black;
+}
+
+.nav-tabs {
+  border-bottom: none;
+  border-radius: 15px;
+  & .nav-link {
+    border: none;
+  }
+  & .nav-link:hover {
+    background: linear-gradient(270deg, #9900dd 0%, #008cff 100%);
+    color: #fff;
+    border-radius: 10px;
+  }
+  & .nav-link.active {
+    background: linear-gradient(270deg, #9900dd 0%, #008cff 100%);
+    border-radius: 10px;
+    color: #fff;
+  }
+}
+
+.dashboard-component-color {
+  background: linear-gradient(#0e0e30, #0e0e30) padding-box,
+    linear-gradient(to right, #008cff, #9900dd) border-box;
+  border-radius: 15px;
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #008cff;
+  width: 90%;
+  padding: 0.5rem 1rem;
+  margin: 10px;
+  font-family: "Arimo", sans-serif;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.gradient-class {
+  background: linear-gradient(#0e0e30, #0e0e30) padding-box,
+    linear-gradient(to right, #008cff, #9900dd) border-box;
+  border-radius: 15px;
+  border: 2px solid transparent;
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #008cff;
+  width: 90%;
+  padding: 0.5rem 1rem;
+  margin: 10px;
+  font-family: "Arimo", sans-serif;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+#history-button {
+  all: unset;
+}
+
+#diagram-button {
+  all: unset;
+}
+
+.admin-panel {
+  background: linear-gradient(
+      240.3deg,
+      rgba(0, 140, 255, 0.2) 31.84%,
+      rgba(14, 14, 48, 0.2) 81.84%
+    ),
+    #0e0e30;
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  color: #fff;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%; /* Start the gradient from the left */
+  }
+  50% {
+    background-position: 100% 50%; /* Move the gradient to the right */
+  }
+  100% {
+    background-position: 0% 50%; /* Bring the gradient back to the left */
+  }
+}
+
+.admin-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.password-icon {
+  color: #0d6efd;
+  &:hover {
+    cursor: pointer;
+    color: #8d0b7e;
+  }
+}
